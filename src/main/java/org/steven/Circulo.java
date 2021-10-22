@@ -2,7 +2,8 @@ package org.steven;
 
 import java.awt.*;
 
-public class Circulo extends Figura {
+
+public class Circulo extends Figuras {
 
     public Circulo(int lado){
         super(lado);
