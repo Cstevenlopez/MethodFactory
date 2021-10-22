@@ -1,2 +1,16 @@
-package org.steven;public class Cuadrado {
+package org.steven;
+
+import java.awt.*;
+
+public class Cuadrado extends Figura {
+    public Cuadrado(int lado){
+        super(lado);
+    }
+    public double getArea(){
+        return (lado * lado);
+    }
+    public void dibujar(Graphics g, int x, int y){
+        g.setColor(Color.RED);
+        g.drawRect(x, y, lado, lado);
+    }
 }
